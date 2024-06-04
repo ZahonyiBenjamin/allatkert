@@ -1,0 +1,173 @@
+body{
+    font-family: Georgia;
+    background-image: url(hatter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, footer{
+    background-color: #236c19;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 10px;
+}
+
+#focim{
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 2px;
+    color: #0f4108;
+    font-family: "Courier New";
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav{
+    font-size: 150%;
+    background-color: #0d3b07;
+}
+
+#logo{
+    font-size: 130%;
+}
+
+.doboz{
+    background-color: rgba(68, 158, 60, 0.9);
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #17520f;
+    margin-bottom: 200px;
+}
+
+.galeria_kepek{
+    max-height: 600px;
+    max-width: 1000px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.kepek{
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.gomb{
+    background-color: rgb(96, 189, 95);
+    border-color: #17520f;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gomb:hover{
+    background-color: rgb(110, 199, 108);
+}
+
+.kapcsolat{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#arlista{
+    font-size: 30px;
+    background-color: #81d485;
+    border: 5px solid rgb(3, 81, 3);
+    width: 100%;
+}
+
+.arak{
+    text-align: right;
+    padding: 20px;
+}
+
+.tetel{
+    text-align: left;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #91d995;
+}
+tr:nth-child(odd) {
+    background-color: #b5e5b8;
+}
+
+#tortenet{
+   background-color: #6dc271;
+   padding: 20px;
+   border-radius: 50px;
+   text-align: justify;
+}
+
+#welcome{
+    text-align: justify;
+}
+
+.allat_cim{
+    font-weight: bold;
+    text-align: center;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.allat_kepek{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 400px;
+}
+
+.allat_nevek{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.tudnev{
+    color:#0d3b07b7;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.nev{
+    font-weight: bold;
+}
+
+.modal-header, .modal-footer{
+    background-color: #28751e;
+    color: #0d3b07;
+    border-color: #0d3b07;
+    font-size: 25px;
+}
+
+.modal-body{
+    background-color: #4b9b40;
+    color: #0d3b07;
+    border-color: #0d3b07;
+    font-size: 25px;
+}
+
+.ossz_nev{
+    font-size: 30px;
+}
+
+.modal_kepek{
+    border-radius: 20px;
+    border: 3px solid black;
+}
